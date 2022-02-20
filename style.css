@@ -1,0 +1,114 @@
+body {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 40px 0 ;
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: mistyrose;
+}
+h2 {
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    line-height: 40px;
+}
+span {
+    color: deeppink;
+    font-family: 'Playfair Display', serif;
+}
+img {
+    width: 150px;
+    max-width: 100%;
+    border-radius: 5%;
+    border: 3px solid mistyrose;
+    padding: 3px
+    
+}
+a {
+    text-decoration: none;
+    color: deeppink;
+}
+a:hover {
+    color:hotpink;
+}
+li {
+    padding-bottom: 10px;
+}
+.zawody {
+    text-align: center;
+}
+.pogrubienie li a {
+    font-weight: bold;
+}
+.normalnytekst  {
+    font-weight: normal !important;
+}
+section, header {
+    padding: 10px 60px 20px 60px;
+    background-color: seashell;  
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.info {
+    display: flex;
+}
+.detale {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+header ul {
+    list-style: none;
+}
+header ul li {
+    margin-bottom: 10px ;
+}
+header address img {
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: mistyrose;
+    margin-right: 10px;
+    padding: 5px;
+    vertical-align: middle;
+    border-radius: 5%;
+}
+.cv {
+    border: 2px solid deeppink;
+    background-color: mistyrose;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5%;
+    transition: background-color .5s, color .5s ;
+}
+.cv:hover {
+    border: 2px solid mistyrose;
+    background-color: deeppink;
+    color: mistyrose;
+}
+.cv:focus {
+    outline: none;
+    border: 2px solid mistyrose;
+    background-color: deeppink;
+    color: mistyrose;
+}
+.cv:active {
+     text-decoration: wavy;
+}
+@media screen and (max-width:1379px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
